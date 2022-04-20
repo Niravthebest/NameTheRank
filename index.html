@@ -1,0 +1,141 @@
+<html>
+
+<head>
+	<title>Name The Rank!</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="main.js"></script>
+</head>
+
+<body>
+
+	<nav class="navbar-inverse my_nav_bar">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		 <span class="icon-bar"></span>
+	     <span class="icon-bar"></span>
+		 <span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">Nirav Sanubala</a>
+	</div>
+
+	<div class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav">
+		<li><a href="#welcome">HELLO!</a></li>
+		<li><a href="#about">ABOUT</a></li>
+		<li><a href="#rank">IN THE LEAD (RANK)</a></li>
+		<li><a href="#edit">EDIT RANK</a></li>
+		<li><a href="#winners">CELEBRATE WINNER</a></li>
+		<li><a href="#contact">CONTACT</a></li>
+		 </ul>
+</div>
+	</nav>
+
+	<div class="alert">
+		<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+		Welcome to this website. Please know that I made it with love and I don't want anybody to not like this. Thank You!
+	  </div>
+
+
+	
+ 
+
+
+	<section id="welcome" class="parallax-container">
+		<div class="parallax-inner">
+			<img mouseover ="Change()" mouseleave="Same()" src="https://www.timeshighereducation.com/sites/default/files/Pictures/web/n/c/o/numbers_on_podium.jpg" class="profile" id="Picture"/>
+			<h1>Welcome to<br><span id="name">NAME THE RANK!</span></h1>
+			<h2>A website that allows you to log scores</h2>
+		</div>
+	</section>
+
+	<br>
+
+	<section id="about">
+		<h1>About!</h1>
+		<div class="line"></div>
+		<p>Welcome to Name The Rank! 
+
+			About this web: Name The Rank is used to log scores for games. For example, if somebody scores a goal in soccer,
+			the you can log the person's name and the points got after scoring. It can only fit one. So please only add the one in the lead.
+
+			Are you excited to log the score? Scroll down to start!
+
+			Made by Nirav Sanubala</p>
+	</section>
+
+
+	<br><br><br><br><br><br><br><br>
+
+	<section id="rank">
+		<br>
+		<h2>IN THE LEAD</h2>
+		<br><br>
+		<div id="display" style="font-weight:bold;"></div>
+
+		<h3>WITH:</h3>
+		<br><br>
+		<div id="display2" style="font-weight:bold;"></div>
+		</section>
+
+	<section id="edit">
+		<h1>EDIT RANKS</h1>
+		<div class="line"></div>
+			<br>
+			<span>Name: </span>
+			<input type="text" placeholder="Name Here" id="nameinput">
+	<br>
+	<br>
+	
+		<span>Score: </span>
+		<input type="number" placeholder="Number Here" id="numinput">
+	<br>
+
+	<button id="add_points" onclick="add()">Show Menu</button>
+            
+	</section>
+
+	<br>
+	<br><br><br><br><br>
+<section id="winners">
+<h1>CELEBRATE WINNER! ( With Games! )</h1>
+<h5>Click the button above to celebrate the winner!</h5>
+<h6>P.S. It is A game Gallery!</h6>
+<a id="celebutton" href="loader.html" target ="_blank">Click Me!</a>
+<h4>* If you really don't like the surprise, I'm really sorry. I tried my best to do this!</h4>
+
+</section>
+
+<br><br><br><br><br><br>
+
+	<section id="contact">
+	<h1>CONTACT</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.394199473131!2d-97.30048288414972!3d32.94060038293239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864dd99a727a6a07%3A0xb5560af3c38fe97c!2s11504%20Compton%20Trail%2C%20Fort%20Worth%2C%20TX%2076244!5e0!3m2!1sen!2sus!4v1648072641041!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<div class="contact_1">
+	<a href="mailto:nsanubala01@gmail.com?Subject= Hello!">
+		<i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>nsanubala01@gmail.com</h3>
+	</a>
+	<h6>Used with the Tim Berners-Lee Template.</h6>
+
+<br>
+<br>
+
+</div>
+
+
+
+
+
+
+
+	</section>
+
+</body>
+
+</html>
